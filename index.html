@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos vestes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Nos vestes</h1>
+        <form action="traiter_form.php">
+            <label for="filtrer">Filtrer par</label>
+            <select name="filtrer" id="filtrer">
+                <option value="toutes">Toutes</option>
+                <option value="homme">Homme</option>
+                <option value="femme">Femme</option>
+            </select>
+            <br>
+            <label for="trier">Trier par</label>
+            <select name="trier" id="trier">
+                <option value="prix">Prix</option>
+                <option value="plus vendues">Plus vendues</option>
+                <option value="récentes">Récentes</option>
+            </select>
+        </form>
+    </header>
+
+    <div id="global">
+        <div id="conteneur">
+            <img src="images/veste1.webp" alt="veste1">
+            <h2>Veste1</h2>
+            <h3>200$</h3>
+        </div>
+        <div id="conteneur">
+            <img src="images/veste2.webp" alt="veste2">
+            <h2>Veste2</h2>
+            <h3>300$</h3>
+        </div>
+        <div id="conteneur">
+            <img src="images/veste3.webp" alt="veste3">
+            <h2>Veste3</h2>
+            <h3>200$</h3>
+        </div>
+        <div id="conteneur">
+            <img src="images/veste4.webp" alt="veste4">
+            <h2>Veste4</h2>
+            <h3>500$</h3>
+        </div>
+        <div id="conteneur">
+            <img src="images/veste5.jpg" alt="veste5">
+            <h2>Veste5</h2>
+            <h3>200$</h3>
+        </div>
+    </div>
+</body>
+</html>
